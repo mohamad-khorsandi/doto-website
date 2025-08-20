@@ -1,0 +1,74 @@
+.check-box {
+  height: 29px;
+  width: 29px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 0;
+  border-color: #6c63ff;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+}
+
+.check-icon {
+  color: white;
+}
+
+.check-box.checked {
+  background-color: #6c63ff;
+}
+
+.todo {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(108, 99, 255, .4);
+  padding-bottom: 15px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 70%;
+  margin: 0 auto auto;
+  margin-top: 30px;
+
+}
+
+.todo.last-todo {
+  border-bottom-style: none;
+}
+
+.white-space {
+  flex-grow: 1;
+}
+
+
+
+.pen-icon {
+  height: 16px;
+  width: 16px;
+  opacity: .3;
+}
+
+.trash-icon {
+  height: 16px;
+  width: 16px;
+  opacity: .3;
+  margin-left: 10px;
+}
+
+.todo-text {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.todo-text.checked {
+  text-decoration: line-through;
+  opacity: .5;
+}

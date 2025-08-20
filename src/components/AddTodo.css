@@ -1,0 +1,22 @@
+.add-btn {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  border-style: solid;
+  border-color: #6c63ff;
+  background-color: #6c63ff;
+  position: fixed;
+  bottom: 5%;
+  right: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-btn:hover {
+  background-color: #534cc2;
+}
+
+.plus-icon {
+  color: white;
+}

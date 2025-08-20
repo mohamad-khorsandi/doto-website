@@ -1,0 +1,113 @@
+/* search bar */
+#serach-bar {
+  display: flex;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: 0 0 0 1px rgb(108, 99, 255, .4);
+  padding: 8px 16px;
+  color: #6b63ffbd;
+  flex-grow: 1;
+}
+
+#serach-bar > input {
+  all: unset;
+  border-style: none;
+  flex-grow: 1;
+}
+
+#serach-bar > button {
+  border-style: none;
+  background: transparent;
+  padding: 0;
+}
+
+.search-icon {
+  color: #6b63ffbd;
+}
+#serach-bar > input::placeholder {
+  color: rgb(108, 99, 255, .3);
+  font-weight: bold;
+  font-size: large;
+}
+
+/* drop down */
+#dd-btn {
+  background-color: #6c63ff;
+  border-style: solid;
+  border-color: #6c63ff;
+  border-radius: 5px;
+  padding: 8px;
+  color: #f7f7f7;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: 0 0 3px #6c63ff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+
+#dd-list {
+  color: #6C63FF;
+  background-color: #f7f7f7;;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+#dd-list > p {
+  padding: 8px;
+  margin: 0;
+}
+
+#dd-list > p:hover {
+  background-color: rgb(108, 99, 255, 0.2);
+}
+
+
+#dd-btn:hover {
+  border-style: solid;
+  border-color: #6C63FF;
+  box-shadow: none;
+}
+
+.dropdown-wrapper {
+  position: relative;
+  flex-basis: 95px;
+  flex-grow: 0;
+}
+
+/* mode */
+.mode-btn {
+  background-color: #6c63ff;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  flex-basis: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mode-icon {
+  width: 30px;
+  height: 30px;
+}
+
+
+/* top bar */
+
+.top-bar {
+  display: flex;
+  gap: 18px;
+  height: 42px;
+}
+
+
+
